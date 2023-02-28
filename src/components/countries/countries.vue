@@ -1,7 +1,24 @@
 <!--Agregamos el codigo alfa 2 para que represente cada uno de los elementos-->
 
 <template>
-    {{ loadData.map((d) => d.cca2) }}
+
+<div class="container">
+  <div class="row">
+    <p>Codigo Alfa 2</p>
+    <div class="col">
+        {{ loadData.map((d) => d.cca2) }}
+    </div>
+    <p>Codigo Alfa 3</p>
+    <div class="col">
+        {{ loadData.map((d) => d.cca3) }}
+    </div>
+    <p>Codigo ISO</p>
+    <div class="col">
+        {{ loadData.map((d) => d.cioc) }}
+    </div>
+  </div>
+</div>
+    
 </template>
 
 <script>
