@@ -12,7 +12,7 @@
     <div class="col">
         {{ loadData.map((d) => d.cca3) }}
     </div>
-    <p>Codigo ISO</p>
+    <p>Codigo cioc</p>
     <div class="col">
         {{ loadData.map((d) => d.cioc) }}
     </div>
