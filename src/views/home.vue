@@ -7,7 +7,7 @@ import HelloWorld from '../components/HelloWorld.vue'
     <img src="https://ugb.edu.sv/observatorioverde/assets/img/UGBlogo.png"
             class="logo"
             height="150"
-            width="600">
+            width="450">
             
     <HelloWorld/>
     
@@ -31,5 +31,10 @@ import HelloWorld from '../components/HelloWorld.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #ec9b9baa);
+}
+
+.texto{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
 }
 </style>
