@@ -10,7 +10,7 @@ export default createRouter({
             component: Home
         },
         {
-            path: '/Parcial-I-programacion-II/countries',
+            path: '/countries',
             component: Countries
         }
     ]
