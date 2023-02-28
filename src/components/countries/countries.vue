@@ -1,5 +1,7 @@
+<!--Agregamos el codigo alfa 2 para que represente cada uno de los elementos-->
+
 <template>
-    {{ loadData.map((d) => d.region) }}
+    {{ loadData.map((d) => d.cca2) }}
 </template>
 
 <script>
